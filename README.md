@@ -1,5 +1,5 @@
 # Typebase.css
-## A starting point for typography on the web
+## A starting point for good typography on screens
 
 Typebase.css aims to provide a minimal CSS typography boiler plate. Most css frameworks fail web typography in one of two ways
 
