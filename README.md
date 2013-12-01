@@ -1,24 +1,20 @@
-# Typebase.css
-## A starting point for good typography on screens
+# typebase.css
+## A starting point for good typography on the web
 
-Typebase.css aims to provide a minimal CSS typography boiler plate. Most css frameworks fail web typography in one of two ways
+**typebase.css** aims to provide a minimal CSS typography boiler plate. Most css frameworks fail web typography in one of a few ways:
 
-1. The apply their own aesthetics to typography on the site
-2. Don't enforce simple rules
+1. They contain built-in aesthetics
+2. Inconsistant vertical rhythm across major elements
+3. Hard to decouple from the rest of the framework
 
-Both force designers & developers to do do extra when building sites. Let Typebase.css handle the vertical rhythm and spacing, you handle the typefaces and design.
+Both force designers & developers to do extra work to realize their design. Let typebase.css handle the vertical rhythm and spacing, you handle the typefaces and design.
 
-It's only [[ put kB in Here ]]
-
-## Features
-### Built to be edited
-Like [normalize.css](http://necolas.github.io/normalize.css/) Typebase.css is built to be edited. You'll find comments throughout the source marking points left for intentional editing. 
-
-### Clear heading weights
-
+## Goals for typebase.css
 ### Enforced vertical rhythm
+The most important thing that typebase.css gives you is an enforced vertical rythm across ~~all~~ most screens (working on mobile). The insures that text across columns and long copy doesn't become uneven.
 
-
+### Built to be edited
+Like [normalize.css](http://necolas.github.io/normalize.css/) typebase.css is built to be edited. You'll find comments throughout the source marking points left for intentional editing. You should subsitute your own typefaces in. Don't like how the headings scale? Change it!
 
 ## Contributing to typebase.css
-I learn good design from other designers. Gimme yo' pull requests. 
+This project is meant to be a converstaion about good typography. I learn design from other designers. Gimme yo' pull requests.
