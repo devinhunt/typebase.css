@@ -353,3 +353,167 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 137.5%;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+/* Links */
+a {
+  color: #5E9EE4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Copy & Lists */
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+  font-family: 'Cantata One', serif;
+  font-weight: 400;
+}
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+  font-family: 'Cantata One', serif;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem;
+}
+/* Hug a the block above you */
+.hug {
+  margin-top: 0;
+}
+/**
+ * Layout for typebase pages
+ */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article {
+  max-width: 700px;
+  margin: 6rem auto 0 auto;
+  padding: 0 40px;
+}
+header h1 {
+  text-align: center;
+}
+.subtle {
+  color: #555;
+  font-size: .8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+a.btn {
+  display: inline-block;
+  background-color: #5e9ee4;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: .2rem;
+  border: 2px solid #5e9ee4;
+  margin: 0 .5rem;
+  line-height: 1rem;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+a.btn:hover {
+  background-color: #8ab8eb;
+}
+a.btn.subtle {
+  background: none;
+  color: #5e9ee4;
+}
+a.btn.subtle:hover {
+  color: white;
+  background-color: #8ab8eb;
+}
+.btnBlock {
+  text-align: center;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+}
+.socialBar {
+  margin-top: 1rem;
+  text-align: center;
+}
+.socialBar .socialItem {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.socialBar .socialItem iframe {
+  vertical-align: middle;
+}

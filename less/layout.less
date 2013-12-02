@@ -1,3 +1,84 @@
 /**
  * Layout for typebase pages
  */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article {
+  max-width: 700px;
+  margin: 6rem auto 0 auto; padding: 0 40px;
+}
+
+header h1 {
+  text-align: center;
+
+  &:after {
+
+  }
+}
+
+.subtle {
+  color: #555;
+  font-size: .8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+// Components
+@buttonColor: #5E9EE4;
+a.btn {
+  display: inline-block;
+  background-color: @buttonColor;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: .2rem;
+  border: 2px solid @buttonColor;
+  margin: 0 .5rem;
+  line-height: 1rem;
+
+  -webkit-transition: all .1s ease-in-out;
+     -moz-transition: all .1s ease-in-out;
+       -o-transition: all .1s ease-in-out;
+          transition: all .1s ease-in-out;
+
+  &:hover {
+    background-color: lighten(@buttonColor, 10%);
+  }
+
+  &.subtle {
+    background: none;
+    color: @buttonColor;
+
+    &:hover {
+      color: white;
+      background-color: lighten(@buttonColor, 10%);
+    }
+  }
+}
+
+.btnBlock {
+  text-align: center;
+  -webkit-perspective: 300px;
+          perspective: 300px;
+}
+
+.socialBar {
+  margin-top: 1rem;
+  text-align: center;
+
+  .socialItem {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 1rem;
+
+    iframe {
+      vertical-align: middle;
+    }
+  }
+}
