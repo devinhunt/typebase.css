@@ -412,16 +412,16 @@ h6 {
   line-height: 1.5rem;
 }
 h1 {
-  font-size: 2.828rem;
+  font-size: 2.4rem;
   line-height: 3rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   font-family: 'Cantata One', serif;
   font-weight: 400;
 }
 h2 {
-  font-size: 2.828rem;
+  font-size: 2.4rem;
   line-height: 3rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   font-family: 'Cantata One', serif;
   font-weight: 400;
 }
@@ -429,13 +429,13 @@ h3 {
   font-size: 1rem;
 }
 h4 {
-  font-size: 0.707rem;
+  font-size: 0.6rem;
 }
 h5 {
-  font-size: 0.4713333333333333rem;
+  font-size: 0.39999999999999997rem;
 }
 h6 {
-  font-size: 0.3535rem;
+  font-size: 0.3rem;
 }
 /* Code blocks */
 code {
@@ -443,7 +443,7 @@ code {
 }
 /* Leading paragraph text */
 .lead {
-  font-size: 1.414rem;
+  font-size: 1.2rem;
 }
 /* Hug a the block above you */
 .hug {
@@ -553,8 +553,8 @@ a.btn.subtle:hover {
   -webkit-transform-origin: top right;
   -ms-transform-origin: top right;
   transform-origin: top right;
-  -webkit-animation: logoIntro2 0.5s;
-  animation: logoIntro2 0.5s;
+  -webkit-animation: logoIntro2 0.7s;
+  animation: logoIntro2 0.7s;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
@@ -572,8 +572,8 @@ a.btn.subtle:hover {
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
-  -webkit-animation: logoIntro3 0.5s;
-  animation: logoIntro3 0.5s;
+  -webkit-animation: logoIntro3 0.7s;
+  animation: logoIntro3 0.7s;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
