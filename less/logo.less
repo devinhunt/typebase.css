@@ -1,0 +1,135 @@
+/**
+ * The typebase logo I just invented.
+ */
+
+.typebaseLogo {
+  @color: #222;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+
+  -webkit-perspective: 300px;
+  perspective: 300px;
+
+  i {
+    opacity: 0;
+    border-radius: 2px;
+    display: block;
+    height: 20px;
+    width: 30px;
+    margin-bottom: 10px;
+    background-color: @color;
+
+    &:nth-child(1) {
+      .transform-origin(top left);
+      .animation(logoIntro1 .5s);
+      width: 100px;
+    }
+    &:nth-child(2) {
+      .transform-origin(top right);
+      .animation(logoIntro2 .5s);
+      .animation-delay(.1s);
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+    &:nth-child(3) {
+      .transform-origin(top left);
+      .animation(logoIntro3 .5s);
+      .animation-delay(.2s);
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+    &:nth-child(4) {
+      .transform-origin(top right);
+      .animation(logoIntro4 .5s);
+      .animation-delay(.3s);
+      width: 50px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
+}
+
+// Ugh hacky mc hackerson
+.transform(@transform) {
+  -webkit-transform: @transform;
+  -ms-transform: @transform;
+  transform: @transform;
+}
+.transform-origin(@origin) {
+  -webkit-transform-origin: @origin;
+  -ms-transform-origin: @origin;
+  transform-origin: @origin;
+}
+.animation(@animation) {
+  -webkit-animation: @animation;
+  animation: @animation;
+  -webkit-animation-fill-mode: forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.320, 0.460, 1.370);
+  -moz-animation-timing-function: cubic-bezier(0.075, 0.320, 0.460, 1.370);
+  -o-animation-timing-function: cubic-bezier(0.075, 0.320, 0.460, 1.370);
+  animation-timing-function: cubic-bezier(0.075, 0.320, 0.460, 1.370);
+}
+.animation-delay(@delay) {
+  -webkit-animation-delay: @delay;
+  -moz-animation-delay: @delay;
+  -ms-animation-delay: @delay;
+  -o-animation-delay: @delay;
+  animation-delay: @delay;
+}
+
+@-webkit-keyframes logoIntro1 { .logoFrames1; }
+@keyframes logoIntro1 { .logoFrames1; }
+.logoFrames1 {
+  from {
+    opacity: 0;
+    .transform(rotateY(-80deg));
+  }
+  to {
+    opacity: 1;
+    .transform(rotateY(0deg));
+  }
+}
+
+@-webkit-keyframes logoIntro2 { .logoFrames2; }
+@keyframes logoIntro2 { .logoFrames2; }
+.logoFrames2 {
+  from {
+    opacity: 0;
+    .transform(rotateY(80deg));
+  }
+  to {
+    opacity: 1;
+    .transform(rotateY(0deg));
+  }
+}
+
+@-webkit-keyframes logoIntro3 { .logoFrames3; }
+@keyframes logoIntro3 { .logoFrames3; }
+.logoFrames3 {
+  from {
+    opacity: 0;
+    .transform(rotateY(-80deg));
+  }
+  to {
+    opacity: 1;
+    .transform(rotateY(0deg));
+  }
+}
+
+@-webkit-keyframes logoIntro4 { .logoFrames4; }
+@keyframes logoIntro4 { .logoFrames4; }
+.logoFrames4 {
+  from {
+    opacity: 0;
+    .transform(rotateY(80deg));
+  }
+  to {
+    opacity: 1;
+    .transform(rotateY(0deg));
+  }
+}
+
+
+

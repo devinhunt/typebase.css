@@ -517,3 +517,253 @@ a.btn.subtle:hover {
 .socialBar .socialItem iframe {
   vertical-align: middle;
 }
+/**
+ * The typebase logo I just invented.
+ */
+.typebaseLogo {
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+}
+.typebaseLogo i {
+  opacity: 0;
+  border-radius: 2px;
+  display: block;
+  height: 20px;
+  width: 30px;
+  margin-bottom: 10px;
+  background-color: #222222;
+}
+.typebaseLogo i:nth-child(1) {
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-animation: logoIntro1 0.5s;
+  animation: logoIntro1 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  width: 100px;
+}
+.typebaseLogo i:nth-child(2) {
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right;
+  -webkit-animation: logoIntro2 0.5s;
+  animation: logoIntro2 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -ms-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.typebaseLogo i:nth-child(3) {
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-animation: logoIntro3 0.5s;
+  animation: logoIntro3 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.typebaseLogo i:nth-child(4) {
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right;
+  -webkit-animation: logoIntro4 0.5s;
+  animation: logoIntro4 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  width: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@-webkit-keyframes logoIntro1 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(-80deg);
+    -ms-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+@keyframes logoIntro1 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(-80deg);
+    -ms-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+.logoFrames1 from {
+  opacity: 0;
+  -webkit-transform: rotateY(-80deg);
+  -ms-transform: rotateY(-80deg);
+  transform: rotateY(-80deg);
+}
+.logoFrames1 to {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+@-webkit-keyframes logoIntro2 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(80deg);
+    -ms-transform: rotateY(80deg);
+    transform: rotateY(80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+@keyframes logoIntro2 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(80deg);
+    -ms-transform: rotateY(80deg);
+    transform: rotateY(80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+.logoFrames2 from {
+  opacity: 0;
+  -webkit-transform: rotateY(80deg);
+  -ms-transform: rotateY(80deg);
+  transform: rotateY(80deg);
+}
+.logoFrames2 to {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+@-webkit-keyframes logoIntro3 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(-80deg);
+    -ms-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+@keyframes logoIntro3 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(-80deg);
+    -ms-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+.logoFrames3 from {
+  opacity: 0;
+  -webkit-transform: rotateY(-80deg);
+  -ms-transform: rotateY(-80deg);
+  transform: rotateY(-80deg);
+}
+.logoFrames3 to {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+@-webkit-keyframes logoIntro4 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(80deg);
+    -ms-transform: rotateY(80deg);
+    transform: rotateY(80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+@keyframes logoIntro4 {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateY(80deg);
+    -ms-transform: rotateY(80deg);
+    transform: rotateY(80deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+.logoFrames4 from {
+  opacity: 0;
+  -webkit-transform: rotateY(80deg);
+  -ms-transform: rotateY(80deg);
+  transform: rotateY(80deg);
+}
+.logoFrames4 to {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
