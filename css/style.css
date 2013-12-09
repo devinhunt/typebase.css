@@ -543,6 +543,7 @@ a.btn.subtle:hover {
   -webkit-animation: logoIntro1 0.5s;
   animation: logoIntro1 0.5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
@@ -556,6 +557,7 @@ a.btn.subtle:hover {
   -webkit-animation: logoIntro2 0.7s;
   animation: logoIntro2 0.7s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
@@ -575,6 +577,7 @@ a.btn.subtle:hover {
   -webkit-animation: logoIntro3 0.7s;
   animation: logoIntro3 0.7s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
@@ -594,6 +597,7 @@ a.btn.subtle:hover {
   -webkit-animation: logoIntro4 0.5s;
   animation: logoIntro4 0.5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -moz-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
   -o-animation-timing-function: cubic-bezier(0.075, 0.32, 0.46, 1.37);
@@ -610,9 +614,9 @@ a.btn.subtle:hover {
 @-webkit-keyframes logoIntro1 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(-80deg);
-    -ms-transform: rotateY(-80deg);
-    transform: rotateY(-80deg);
+    -webkit-transform: rotateY(-80.001deg);
+    -ms-transform: rotateY(-80.001deg);
+    transform: rotateY(-80.001deg);
   }
   to {
     opacity: 1;
@@ -624,9 +628,9 @@ a.btn.subtle:hover {
 @keyframes logoIntro1 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(-80deg);
-    -ms-transform: rotateY(-80deg);
-    transform: rotateY(-80deg);
+    -webkit-transform: rotateY(-80.001deg);
+    -ms-transform: rotateY(-80.001deg);
+    transform: rotateY(-80.001deg);
   }
   to {
     opacity: 1;
@@ -637,9 +641,9 @@ a.btn.subtle:hover {
 }
 .logoFrames1 from {
   opacity: 0;
-  -webkit-transform: rotateY(-80deg);
-  -ms-transform: rotateY(-80deg);
-  transform: rotateY(-80deg);
+  -webkit-transform: rotateY(-80.001deg);
+  -ms-transform: rotateY(-80.001deg);
+  transform: rotateY(-80.001deg);
 }
 .logoFrames1 to {
   opacity: 1;
@@ -650,9 +654,9 @@ a.btn.subtle:hover {
 @-webkit-keyframes logoIntro2 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(80deg);
-    -ms-transform: rotateY(80deg);
-    transform: rotateY(80deg);
+    -webkit-transform: rotateY(80.001deg);
+    -ms-transform: rotateY(80.001deg);
+    transform: rotateY(80.001deg);
   }
   to {
     opacity: 1;
@@ -664,9 +668,9 @@ a.btn.subtle:hover {
 @keyframes logoIntro2 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(80deg);
-    -ms-transform: rotateY(80deg);
-    transform: rotateY(80deg);
+    -webkit-transform: rotateY(80.001deg);
+    -ms-transform: rotateY(80.001deg);
+    transform: rotateY(80.001deg);
   }
   to {
     opacity: 1;
@@ -677,9 +681,9 @@ a.btn.subtle:hover {
 }
 .logoFrames2 from {
   opacity: 0;
-  -webkit-transform: rotateY(80deg);
-  -ms-transform: rotateY(80deg);
-  transform: rotateY(80deg);
+  -webkit-transform: rotateY(80.001deg);
+  -ms-transform: rotateY(80.001deg);
+  transform: rotateY(80.001deg);
 }
 .logoFrames2 to {
   opacity: 1;
@@ -690,9 +694,9 @@ a.btn.subtle:hover {
 @-webkit-keyframes logoIntro3 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(-80deg);
-    -ms-transform: rotateY(-80deg);
-    transform: rotateY(-80deg);
+    -webkit-transform: rotateY(-80.001deg);
+    -ms-transform: rotateY(-80.001deg);
+    transform: rotateY(-80.001deg);
   }
   to {
     opacity: 1;
@@ -704,9 +708,9 @@ a.btn.subtle:hover {
 @keyframes logoIntro3 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(-80deg);
-    -ms-transform: rotateY(-80deg);
-    transform: rotateY(-80deg);
+    -webkit-transform: rotateY(-80.001deg);
+    -ms-transform: rotateY(-80.001deg);
+    transform: rotateY(-80.001deg);
   }
   to {
     opacity: 1;
@@ -717,9 +721,9 @@ a.btn.subtle:hover {
 }
 .logoFrames3 from {
   opacity: 0;
-  -webkit-transform: rotateY(-80deg);
-  -ms-transform: rotateY(-80deg);
-  transform: rotateY(-80deg);
+  -webkit-transform: rotateY(-80.001deg);
+  -ms-transform: rotateY(-80.001deg);
+  transform: rotateY(-80.001deg);
 }
 .logoFrames3 to {
   opacity: 1;
@@ -730,9 +734,9 @@ a.btn.subtle:hover {
 @-webkit-keyframes logoIntro4 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(80deg);
-    -ms-transform: rotateY(80deg);
-    transform: rotateY(80deg);
+    -webkit-transform: rotateY(80.001deg);
+    -ms-transform: rotateY(80.001deg);
+    transform: rotateY(80.001deg);
   }
   to {
     opacity: 1;
@@ -744,9 +748,9 @@ a.btn.subtle:hover {
 @keyframes logoIntro4 {
   from {
     opacity: 0;
-    -webkit-transform: rotateY(80deg);
-    -ms-transform: rotateY(80deg);
-    transform: rotateY(80deg);
+    -webkit-transform: rotateY(80.001deg);
+    -ms-transform: rotateY(80.001deg);
+    transform: rotateY(80.001deg);
   }
   to {
     opacity: 1;
@@ -757,9 +761,9 @@ a.btn.subtle:hover {
 }
 .logoFrames4 from {
   opacity: 0;
-  -webkit-transform: rotateY(80deg);
-  -ms-transform: rotateY(80deg);
-  transform: rotateY(80deg);
+  -webkit-transform: rotateY(80.001deg);
+  -ms-transform: rotateY(80.001deg);
+  transform: rotateY(80.001deg);
 }
 .logoFrames4 to {
   opacity: 1;
