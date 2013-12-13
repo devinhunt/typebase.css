@@ -68,6 +68,17 @@ h5 {
 h6 {
   font-size: 0.3535rem;
 }
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
 /* Code blocks */
 code {
   vertical-align: bottom;

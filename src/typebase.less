@@ -2,8 +2,9 @@
 
 
 // Typesetting variables. Edit these!
-@baseFontSize: 22; // (22px on desktop)
-@leading: 1.5rem;
+@baseFontSize: 22; // in pixels. This would result in 22px on desktop
+@baseLineHeight: 1.5; // how large the line height is as a multiple of font size
+@leading: @baseLineHeight * 1rem;
 
 // Rate of growth for headings
 // I actually like this to be slightly smaller then the leading. Makes for tight headings.
@@ -67,6 +68,18 @@ h3 { font-size: 1 * @scale * 1rem; }
 h4 { font-size: @scale / 2 * 1rem; }
 h5 { font-size: @scale / 3 * 1rem; }
 h6 { font-size: @scale / 4 * 1rem; }
+
+/* Tables */
+table {
+  margin-top: @leading;
+  border-spacing: 0px;
+  border-collapse: collapse;
+
+  td, th {
+    padding: 0;
+    line-height: @baseLineHeight * @baseFontSize - 0px;
+  }
+}
 
 /* Code blocks */
 code {
