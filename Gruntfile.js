@@ -24,6 +24,14 @@ module.exports = function(grunt) {
           "typebase.css": "src/typebase.less"
         }
       }
+    },
+
+    sass: {
+      dev: {
+        files: {
+          "typebase-sass.css": "src/typebase.sass"
+        }
+      }
     }
   });
 
