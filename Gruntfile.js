@@ -15,7 +15,11 @@ module.exports = function(grunt) {
       less: {
         files: ['src/{,*/}*.less'],
         tasks: ['less:dev']
-      }
+      },
+      sass: {
+        files: ['src/{,*/}*.scss'],
+        tasks: ['sass:dev']
+      }      
     },
 
     less: {
@@ -29,7 +33,8 @@ module.exports = function(grunt) {
     sass: {
       dev: {
         files: {
-          "typebase-sass.css": "src/typebase.sass"
+          "typebase-sass.css": "src/typebase.sass",
+          "typebase-scss.css": "src/typebase.scss"
         }
       }
     }
@@ -42,6 +47,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'clean',
     'less',
+    'sass'
   ]);
 
 };
