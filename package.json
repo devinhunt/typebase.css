@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/devinhunt/typebase.css"
   },
+  "style": "typebase.css",
   "devDependencies": {
     "grunt": "~0.4.2",
     "load-grunt-tasks": "~0.2.0",
