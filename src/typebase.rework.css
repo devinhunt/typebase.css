@@ -1,0 +1,127 @@
+/*! Typebase.rework.css v0.1.0 | MIT License */
+
+/* Typesetting variables. Edit these!
+// This requires rework-vars and rework-calc */
+:root {
+  /* Base font size in pixels. This would result in 22px on desktop */
+  --base-font-size: 22;
+
+  /* How large the line height is as a multiple of font size */
+  --base-line-height: 1.5;
+
+  --leading: calc(var(--base-line-height) * 1rem);
+
+  /* Rate of growth for headings
+     I actually like this to be slightly smaller then the leading. Makes for tight headings.
+  */
+  --scale: 1.414;
+}
+
+/* Setup */
+
+html {
+    /* Change default typefaces here */
+    font-family: serif;
+    font-size: calc(var(--base-font-size) - 0px);
+    font-size: calc(var(--base-font-size) / 16 * 100%);
+    /* Make everything look a little nicer in webkit */
+    -webkit-font-smoothing: antialiased;
+    /* -webkit-text-size-adjust: auto
+    // -moz-text-size-adjust: auto
+    // -ms-text-size-adjust: auto
+    // -o-text-size-adjust: auto
+    // text-size-adjust: auto */
+
+}
+/* Copy & Lists */
+
+p {
+    line-height: var(--leading);
+    margin-top: var(--leading);
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: var(--leading);
+    margin-bottom: var(--leading);
+}
+ul li,
+ol li {
+    line-height: var(--leading);
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+blockquote {
+    line-height: var(--leading);
+    margin-top: var(--leading);
+    margin-bottom: var(--leading);
+}
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* Change heading typefaces here */
+    font-family: sans-serif;
+    margin-top: var(--leading);
+    margin-bottom: 0;
+    line-height: var(--leading);
+}
+h1 {
+    font-size: calc(3 * var(--scale) * 1rem);
+    line-height: calc(3 * var(--leading));
+    margin-top: calc(2 * var(--leading));
+}
+h2 {
+    font-size: calc(2 * var(--scale) * 1rem);
+    line-height: calc(2 * var(--leading));
+    margin-top: calc(2 * var(--leading));
+}
+h3 {
+    font-size: calc(1 * var(--scale) * 1rem);
+}
+h4 {
+    font-size: calc(var(--scale) / 2 * 1rem);
+}
+h5 {
+    font-size: calc(var(--scale) / 3 * 1rem);
+}
+h6 {
+    font-size: calc(var(--scale) / 4 * 1rem);
+}
+/* Tables */
+
+table {
+    margin-top: var(--leading);
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+td,
+th {
+    padding: 0;
+    line-height: calc(var(--base-line-height) * var(--base-font-size) - 0px);
+}
+/* Code blocks */
+
+code {
+    /* Forces text to constrain to the line-height. Not ideal, but works. */
+    vertical-align: bottom;
+}
+/* Leading paragraph text */
+
+.lead {
+    font-size: calc(var(--scale) * 1rem);
+}
+/* Hug a the block above you */
+
+.hug {
+    margin-top: 0;
+}
