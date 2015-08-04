@@ -32,6 +32,14 @@ module.exports = function(grunt) {
           "typebase-sass.css": "src/typebase.sass"
         }
       }
+    },
+
+    stylus: {
+      dev: {
+        files: {
+          "typebase-stylus.css":"src/typebase.stylus"
+        }
+      }
     }
   });
 
