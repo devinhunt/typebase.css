@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/devinhunt/typebase.css"
   },
+  "license": "MIT",
   "style": "typebase.css",
   "devDependencies": {
     "grunt": "^0.4.5",
