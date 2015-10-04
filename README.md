@@ -17,4 +17,4 @@ The most important thing that typebase.css gives you is an enforced vertical ryt
 Like [normalize.css](http://necolas.github.io/normalize.css/) typebase.css is built to be edited. You'll find comments throughout the source marking points left for intentional editing. You should subsitute your own typefaces in. Don't like how the headings scale? Change it!
 
 ## Contributing to typebase.css
-This project is meant to be a converstaion about good typography. I learn design from other designers. Gimme yo' pull requests.
+This project is meant to be a conversation about good typography. I learn design from other designers. Gimme yo' pull requests.
