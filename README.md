@@ -11,7 +11,7 @@ Both force designers & developers to do extra work to realize their design. Let 
 
 ## Goals for typebase.css
 ### Enforced vertical rhythm
-The most important thing that typebase.css gives you is an enforced vertical rythm across ~~all~~ most screens (working on mobile). The insures that text across columns and long copy doesn't become uneven.
+The most important thing that typebase.css gives you is an enforced vertical rhythm across ~~all~~ most screens (working on mobile). The insures that text across columns and long copy doesn't become uneven.
 
 ### Built to be edited
 Like [normalize.css](http://necolas.github.io/normalize.css/) typebase.css is built to be edited. You'll find comments throughout the source marking points left for intentional editing. You should subsitute your own typefaces in. Don't like how the headings scale? Change it!
