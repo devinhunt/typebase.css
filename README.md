@@ -18,3 +18,8 @@ Like [normalize.css](http://necolas.github.io/normalize.css/) typebase.css is bu
 
 ## Contributing to typebase.css
 This project is meant to be a converstaion about good typography. I learn design from other designers. Gimme yo' pull requests.
+
+## License
+Copyright (c) 2015 Devin Hunt and contributors
+
+Licensed under the MIT license.
