@@ -5,8 +5,17 @@
     "type": "git",
     "url": "https://github.com/devinhunt/typebase.css"
   },
+  "main": "typebase.css",
   "style": "typebase.css",
+  "scripts": {},
   "license": "MIT",
+  "keywords": [
+    "css",
+    "less",
+    "sass",
+    "typography",
+    "web"
+  ],
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "~0.5.0",
