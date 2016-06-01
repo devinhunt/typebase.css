@@ -1,0 +1,24 @@
+{
+  "name": "typebase.css",
+  "description": "typebase.css is a minimal CSS typography boiler plate",
+  "main": "./typebase.css",
+  "authors": [
+    "Devin Hunt <devinhunt@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "less",
+    "sass",
+    "typography",
+    "web"
+  ],
+  "homepage": "http://devinhunt.github.io/typebase.css/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
