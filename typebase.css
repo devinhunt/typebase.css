@@ -41,7 +41,8 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family: sans-serif;
+  font-family: monospace;
+  color=#FF8C00;
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
@@ -76,7 +77,7 @@ table {
 }
 table td,
 table th {
-  padding: 0;
+  padding: 2px;
   line-height: 33px;
 }
 /* Code blocks */
