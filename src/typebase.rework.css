@@ -108,6 +108,7 @@ td,
 th {
     padding: 0;
     line-height: calc(var(--base-line-height) * var(--base-font-size) - 0px);
+    vertical-align: top;
 }
 /* Code blocks */
 
@@ -120,7 +121,7 @@ code {
 .lead {
     font-size: calc(var(--scale) * 1rem);
 }
-/* Hug a the block above you */
+/* Hug the block above you */
 
 .hug {
     margin-top: 0;
